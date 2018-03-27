@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton|Cabin+Sketch|Love+Ya+Like+A+Sister">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Lab: Pixel Art Maker</h1>
+    <h3>Choose the size of the grid and click "Submit or reset"</h3>
+    <form id="sizePicker">
+        <input type="number" id="input_height" placeholder="Numero righe" required name="height" min="10" value="10">
+        <input type="number" id="input_width" placeholder="Numero colonne" required name="width" min="10" value="10">
+        <button type="button" id="submit-reset">SUBMIT or RESET</button>
+        <button type="button" id="remove-grid">Remove grid</button>
+    </form>
+    <h3>Choose a color and when you're done click "Remove grid"</h3>
+    <input type="color" id="colorPicker">
+    <h2>Create your own PIXEL design!</h2>
+    <table id="pixel_canvas"></table>
+    <script src="./js/designs.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+    height: 100%;
+}
+
+html {
+    position: relative;
+    background: #fff url(http://wallpaper-gallery.net/images/white-wallpaper-abstract/white-wallpaper-abstract-1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+h1 {
+    font-family: Monoton, "Times New Roman";
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h3 {
+    margin: 1em 0 0.25em;
+}
+
+h2 {
+    margin-top: 1em;
+    margin-bottom: 0.1em;
+}
+
+h2,
+h3 {
+  font-family: "Love Ya Like A Sister", cursive;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 115px;
+    padding: 3px;
+    font: 16px "Cabin Sketch", cursive;
+    border-style: none;
+}
+
+#colorPicker {
+  margin: auto;
+  display: block;
+  width: 115px;
+  height: 30px;
+  cursor: pointer;
+  border-style:none;
+}
+
+#submit-reset {
+  background-color: #f30;
+}
+
+#remove-grid {
+  background-color: #ff0;
+  text-transform: uppercase;
+}
+
+#submit-reset,
+#remove-grid {
+  font-family: "Cabin Sketch", cursive;
+  border: none;
+  padding: 5px;
+  margin: 0 2px;
+}
